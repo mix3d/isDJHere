@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Slack Command Helper",
   "main": "index.js",
-  "dependencies": {
-    "netlify-cli": "^1.2.3",
-    "netlify-lambda": "^0.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
