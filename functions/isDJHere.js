@@ -7,7 +7,12 @@ exports.myHandler = function(event, context, callback) {
     ]
     let isDJHere = djsDays.includes(date)
 
-    callback(null, `DJ is probably ${!isDJHere ? 'NOT' : ''} here!`);
-   // or 
+    callback(null, {
+        "isBase64Encoded": false,
+        "statusCode": 200,
+        "headers": { },
+        "body": `DJ is probably ${!isDJHere ? 'NOT' : ''} here!`
+    });
+   // or
    // callback("some error type");
 }
