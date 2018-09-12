@@ -1,0 +1,24 @@
+{
+  "name": "isdjhere",
+  "version": "1.0.0",
+  "description": "Slack Command Helper",
+  "main": "index.js",
+  "dependencies": {
+    "netlify-cli": "^1.2.3",
+    "netlify-lambda": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mix3d/isDJHere.git"
+  },
+  "author": "Madison Dickson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mix3d/isDJHere/issues"
+  },
+  "homepage": "https://github.com/mix3d/isDJHere#readme"
+}
