@@ -1,5 +1,5 @@
 
-exports.myHandler = function(event, context, callback) {
+exports.handler = function(event, context, callback) {
     let date = (new Date()).getDay();
     // Days of the week
     let djsDays = [
